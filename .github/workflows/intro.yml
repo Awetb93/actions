@@ -9,6 +9,6 @@ jobs:
            with:
               node-version: '14'
       - run : npm install -g bats
-      - run: npm run build
+      - run: bats -v
 
    
